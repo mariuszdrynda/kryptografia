@@ -26,7 +26,7 @@ numbers = []
 for i in range(344, 375):
     numbers.append(glibc.random())
 if_predicted = []
-
+ 
 for k in range(10000):
     predicted_number = predict_new_value(numbers)
     new_number = glibc.random()
